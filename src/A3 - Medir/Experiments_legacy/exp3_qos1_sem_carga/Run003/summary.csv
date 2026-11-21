@@ -1,0 +1,2 @@
+﻿experiment,run,received_unique,expected,lost,loss_pct,duplicates,min_ms,mean_ms,p99_ms,max_ms,jitter_mean_abs_ms,standard_deviation_ms
+exp3_qos1_sem_carga,3,1000,1000,0,0.0,0,0.0,19.7905297,138.03441400000003,160.3002,5.186869469469469,31.047783775013762

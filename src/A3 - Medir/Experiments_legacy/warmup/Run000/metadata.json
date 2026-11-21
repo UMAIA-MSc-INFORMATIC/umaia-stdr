@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "experiment": "warmup",
+  "run": 0,
+  "run_name": "Run000",
+  "status": "completed",
+  "created_at_utc": "2026-11-21T18:22:12.937061+00:00",
+  "completed_at_utc": "2026-11-21T18:22:24.453328+00:00",
+  "environment": {
+    "hostname": "FusionStation",
+    "operating_system": "Windows-11-10.0.26300-SP0",
+    "python_version": "3.12.10",
+    "paho_mqtt_version": "unknown"
+  },
+  "mqtt": {
+    "host": "localhost",
+    "port": 1883,
+    "topic": "mestrado/mqtt/latencia",
+    "subscriber_qos": 0,
+    "publisher_qos": 0
+  },
+  "measurement": {
+    "expected_messages": 10,
+    "received_unique": 10,
+    "duplicate_records": 0,
+    "lost_messages": 0,
+    "period_ms": 10.0,
+    "subscriber_timeout_s": 120.0,
+    "publisher_count": 10
+  },
+  "load": {
+    "enabled": false
+  },
+  "files": {
+    "data": "data.jsonl",
+    "summary": "summary.csv",
+    "histogram": "histogram.png"
+  },
+  "publisher": {
+    "started_at_utc": "2026-11-21T18:22:22.584728+00:00",
+    "completed_at_utc": "2026-11-21T18:22:24.262325+00:00",
+    "status": "completed",
+    "sent_messages": 10
+  },
+  "metadata_updated_at_utc": "2026-11-21T18:23:11.816289+00:00",
+  "analysis": {
+    "status": "completed",
+    "analysed_at_utc": "2026-11-21T18:23:11.816289+00:00",
+    "jitter_definition": "mean(abs(L_i - L_(i-1)))",
+    "experiment": "warmup",
+    "run": 0,
+    "received_unique": 10,
+    "expected": 10,
+    "lost": 0,
+    "loss_pct": 0.0,
+    "duplicates": 0,
+    "min_ms": 0.0,
+    "mean_ms": 1.30089,
+    "p99_ms": 7.667648000000001,
+    "max_ms": 8.2043,
+    "jitter_mean_abs_ms": 2.0572222222222223,
+    "standard_deviation_ms": 2.5113375247509486
+  }
+}

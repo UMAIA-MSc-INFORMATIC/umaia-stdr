@@ -1,0 +1,78 @@
+{
+  "schema_version": 2,
+  "experiment": "exp2_qos0_com_carga",
+  "run": 3,
+  "run_name": "Run003",
+  "status": "completed",
+  "created_at_utc": "2026-11-21T22:23:50.100102+00:00",
+  "completed_at_utc": "2026-11-21T22:24:16.920440+00:00",
+  "environment": {
+    "hostname": "FusionStation",
+    "operating_system": "Windows-11-10.0.26300-SP0",
+    "python_version": "3.12.10",
+    "paho_mqtt_version": "unknown"
+  },
+  "mqtt": {
+    "host": "localhost",
+    "port": 1883,
+    "topic": "mestrado/mqtt/latencia",
+    "subscriber_qos": 0,
+    "publisher_qos": 0
+  },
+  "measurement": {
+    "expected_messages": 1000,
+    "received_unique": 1000,
+    "duplicate_records": 0,
+    "lost_messages": 0,
+    "period_ms": 10.0,
+    "subscriber_timeout_s": 120.0,
+    "publisher_count": 1000
+  },
+  "measurement_clock": {
+    "name": "perf_counter",
+    "implementation": "QueryPerformanceCounter()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution_s": 1e-07,
+    "resolution_ns": 100.0
+  },
+  "load": {
+    "enabled": true,
+    "status": "completed",
+    "workers": 6,
+    "duty_cycle_pct": 100.0,
+    "duration_s": 40.0,
+    "started_at_utc": "2026-11-21T22:23:55.810705+00:00",
+    "completed_at_utc": "2026-11-21T22:24:36.112997+00:00"
+  },
+  "files": {
+    "data": "data.jsonl",
+    "summary": "summary.csv",
+    "histogram": "histogram.png"
+  },
+  "metadata_updated_at_utc": "2026-11-21T22:24:55.366582+00:00",
+  "publisher": {
+    "started_at_utc": "2026-11-21T22:24:05.077240+00:00",
+    "completed_at_utc": "2026-11-21T22:24:16.298807+00:00",
+    "status": "completed",
+    "sent_messages": 1000
+  },
+  "analysis": {
+    "status": "completed",
+    "analysed_at_utc": "2026-11-21T22:24:55.366582+00:00",
+    "jitter_definition": "mean(abs(L_i - L_(i-1)))",
+    "experiment": "exp2_qos0_com_carga",
+    "run": 3,
+    "received_unique": 1000,
+    "expected": 1000,
+    "lost": 0,
+    "loss_pct": 0.0,
+    "duplicates": 0,
+    "min_ms": 0.3322,
+    "mean_ms": 76.3174943,
+    "p99_ms": 456.953042,
+    "max_ms": 524.0145,
+    "jitter_mean_abs_ms": 4.694121421421421,
+    "standard_deviation_ms": 114.20615204860921
+  }
+}

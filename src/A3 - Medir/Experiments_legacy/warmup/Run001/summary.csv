@@ -1,0 +1,2 @@
+﻿experiment,run,received_unique,expected,lost,loss_pct,duplicates,min_ms,mean_ms,p99_ms,max_ms,jitter_mean_abs_ms,standard_deviation_ms
+warmup,1,1000,1000,0,0.0,0,0.0,6.3545829000000005,63.321473999999995,98.953,3.4659260260260263,13.359978416167372
